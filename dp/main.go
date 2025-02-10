@@ -53,5 +53,11 @@ func main() {
 	//不同子序列
 	//fmt.Println(numDistinct("rabbbit", "rabbit"))
 	//编辑距离
-	fmt.Println(minDistanceII("intention", "execution"))
+	//fmt.Println(minDistanceII("intention", "execution"))
+	fmt.Println(pathSum(&TreeNode{
+		Val: -2,
+		Right: &TreeNode{
+			Val: -3,
+		},
+	}, -5))
 }
